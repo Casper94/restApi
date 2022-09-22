@@ -2,28 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13786643-231d-4792-8509-16527fe284b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/backend/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/authentication.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/mixins.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/permissions.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/cfehome/routers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/products/validators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/backend/products/viewsets.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/cfehome/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/products/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_client/create.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/create.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_client/delete.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/delete.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_client/detail.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/detail.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/py_client/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_client/update.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/update.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +86,7 @@
       <workItem from="1661490955131" duration="2406000" />
       <workItem from="1662444040938" duration="27945000" />
       <workItem from="1663646200795" duration="597000" />
-      <workItem from="1663721416260" duration="5363000" />
+      <workItem from="1663721416260" duration="8254000" />
     </task>
     <servers />
   </component>

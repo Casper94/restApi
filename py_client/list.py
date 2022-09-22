@@ -16,5 +16,12 @@ if auth_response.status_code == 200:
 
     endpoint = "http://localhost:8000/api/products/"
 
-    get_response = requests.get(endpoint)
-    print(get_response.json())
+    get_response = requests.get(endpoint, headers=headers)
+    data = get_response.json()
+    next_url = data['next']
+    results = data['results']
+    print(next_url)
+    print(results)
+    if next_url is not None:
+        get_response = requests.get(endpoint, headers=headers)
+

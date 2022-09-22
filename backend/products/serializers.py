@@ -8,7 +8,6 @@ from .validators import validate_title_no_hello, unique_product_title
 
 class ProductSerializer(serializers.ModelSerializer):
     owner = UserPublicSerializer(source='user', read_only=True)
-    my_discount = serializers.SerializerMethodField(read_only=True)
     edit_url = serializers.SerializerMethodField(read_only=True)
     url = serializers.HyperlinkedIdentityField(
         view_name='product-detail',
@@ -16,22 +15,17 @@ class ProductSerializer(serializers.ModelSerializer):
     )
     title = serializers.CharField(validators=[validate_title_no_hello,
                                               unique_product_title])
-    # name = serializers.CharField(source='title', read_only=True)
-    # email = serializers.EmailField(source='user.email', read_only=True)
     class Meta:
         model = Product
         fields = [
             'owner',
-            # 'email',
             'url',
             'edit_url',
             'pk',
             'title',
-            # 'name',
             'content',
             'price',
             'sale_price',
-            'my_discount',
         ]
 
     # def validate_title(self, value):
@@ -45,19 +39,10 @@ class ProductSerializer(serializers.ModelSerializer):
     #     # email = validated_data.pop('email')
     #     obj = super().create(validated_data)
     #     return obj
-    #
-    # def update(self, instance, validated_data):
-    #     instance.title = validated_data.get('title')
-    #     return instance
+
 
     def get_edit_url(self, obj):
         request = self.context.get('request')   # self. request
         if request is None:
             return None
         return reverse("product-edit", kwargs={"pk": obj.pk}, request=request)
-
-    def get_my_discount(self, obj):
-        if not hasattr(obj, 'id'):
-            return None
-        if not isinstance(obj, Product):
-            return None
