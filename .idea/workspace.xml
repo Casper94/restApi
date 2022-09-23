@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13786643-231d-4792-8509-16527fe284b2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/backend/search/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/cfehome/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/cfehome/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/cfehome/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/backend/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/products/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/products/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/products/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/py_client/list.py" beforeDir="false" afterPath="$PROJECT_DIR$/py_client/list.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +47,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2Co33aTfAaJL9YFAVyqGmAis8zp" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -86,7 +91,8 @@
       <workItem from="1661490955131" duration="2406000" />
       <workItem from="1662444040938" duration="27945000" />
       <workItem from="1663646200795" duration="597000" />
-      <workItem from="1663721416260" duration="8254000" />
+      <workItem from="1663721416260" duration="13397000" />
+      <workItem from="1663939799818" duration="385000" />
     </task>
     <servers />
   </component>
@@ -97,10 +103,10 @@
     <option featureType="com.intellij.fileTypeFactory" implementationName="requirements.txt" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1745" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1663721422872">
+    <state x="1745" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1663939826493">
       <screen x="1366" y="0" width="1366" height="728" />
     </state>
     <state x="379" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@0.0.1366.728" timestamp="1660014937026" />
-    <state x="1745" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1663721422872" />
+    <state x="1745" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728/1366.0.1366.728@1366.0.1366.728" timestamp="1663939826493" />
   </component>
 </project>
